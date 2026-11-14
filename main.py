@@ -3,6 +3,7 @@
 
 The poem is fixed and deterministic: no network, no randomness,
 no input. Both runs write the same bytes.
+Output path honours MAKEFUN_OUTPUT_DIR for local testing.
 """
 import os
 
